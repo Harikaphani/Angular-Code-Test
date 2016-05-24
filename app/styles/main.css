@@ -1,12 +1,22 @@
 body {
-  padding: 0;
-}
-
-th:first-child{
-  display: inline-flex;
-}
-
-.fa-sort{
-  margin: 3px 0 0 6px;
-}
-
+            padding: 10px;
+        }
+		table{
+			border-collapse: collapse;
+			display:none;
+		}
+		table.show{
+		display:block;
+		}
+		
+		th{
+			cursor:pointer;
+		}
+        
+        th:first-child {
+            display: inline-flex;
+        }
+        
+        .fa-sort {
+            margin: 3px 0 0 6px;
+        }
