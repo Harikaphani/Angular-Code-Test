@@ -1,0 +1,12 @@
+body {
+  padding: 0;
+}
+
+th:first-child{
+  display: inline-flex;
+}
+
+.fa-sort{
+  margin: 3px 0 0 6px;
+}
+
